@@ -1,0 +1,23 @@
+{
+  "name": "@travel-and-tour/db",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@travel-and-tour/env": "workspace:*",
+    "dotenv": "catalog:",
+    "mongoose": "^8.14.0",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@travel-and-tour/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

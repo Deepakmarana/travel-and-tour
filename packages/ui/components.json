@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-lyra",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@travel-and-tour/ui/components",
+    "utils": "@travel-and-tour/ui/lib/utils",
+    "hooks": "@travel-and-tour/ui/hooks",
+    "lib": "@travel-and-tour/ui/lib",
+    "ui": "@travel-and-tour/ui/components"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {}
+}

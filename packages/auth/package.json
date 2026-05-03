@@ -1,0 +1,24 @@
+{
+  "name": "@travel-and-tour/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@travel-and-tour/db": "workspace:*",
+    "@travel-and-tour/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@travel-and-tour/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
